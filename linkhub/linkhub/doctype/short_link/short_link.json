@@ -4,7 +4,7 @@
  "autoname": "field:short_link",
  "creation": "2025-07-25 14:56:49.731337",
  "doctype": "DocType",
- "engine": "InnoDB",
+ "engine": "MyISAM",
  "field_order": [
   "destination_url",
   "column_break_dxvu",
@@ -37,8 +37,13 @@
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2025-07-25 15:28:41.665013",
+ "links": [
+  {
+   "link_doctype": "Short Link Click",
+   "link_fieldname": "link"
+  }
+ ],
+ "modified": "2025-07-25 16:32:32.591915",
  "modified_by": "Administrator",
  "module": "Linkhub",
  "name": "Short Link",

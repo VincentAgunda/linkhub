@@ -1,0 +1,104 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-25 15:55:01.991669",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "ip",
+  "user_agent",
+  "link",
+  "column_break_buht",
+  "referer",
+  "utm",
+  "section_break_xckc",
+  "amended_from_copy",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_xckc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ip",
+   "fieldtype": "Data",
+   "label": "IP"
+  },
+  {
+   "fieldname": "user_agent",
+   "fieldtype": "Data",
+   "label": "User Agent"
+  },
+  {
+   "fieldname": "column_break_buht",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "referer",
+   "fieldtype": "Data",
+   "label": "Referer"
+  },
+  {
+   "fieldname": "utm",
+   "fieldtype": "Data",
+   "label": "UTM"
+  },
+  {
+   "fieldname": "amended_from_copy",
+   "fieldtype": "Link",
+   "label": "Amended From Copy",
+   "no_copy": 1,
+   "options": "Short Link Click",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Link",
+   "options": "Short Link",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Short Link Click",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-07-25 16:00:59.975807",
+ "modified_by": "Administrator",
+ "module": "Linkhub",
+ "name": "Short Link Click",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
