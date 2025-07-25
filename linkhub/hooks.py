@@ -3,7 +3,8 @@ app_title = "Linkhub"
 app_publisher = "Vincent Agunda"
 app_description = "Manage and organize links"
 app_email = "owuorvincent43@gmail.com"
-app_license = "gpl-3.0"
+app_license = "GPL-3.0"
+website_path_resolver = "linkhub.utils.path_resolver"
 
 # Apps
 # ------------------
