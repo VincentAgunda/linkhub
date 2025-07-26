@@ -4,7 +4,11 @@ app_publisher = "Vincent Agunda"
 app_description = "Manage and organize links"
 app_email = "owuorvincent43@gmail.com"
 app_license = "GPL-3.0"
+
+
 website_path_resolver = "linkhub.utils.path_resolver"
+
+website_route_rules = [{'from_route': '/frontend/<path:app_path>', 'to_route': 'frontend'},]
 
 # Apps
 # ------------------
@@ -242,4 +246,5 @@ website_path_resolver = "linkhub.utils.path_resolver"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
+
 

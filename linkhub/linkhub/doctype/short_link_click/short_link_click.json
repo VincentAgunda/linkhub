@@ -1,6 +1,6 @@
 {
  "actions": [],
- "allow_rename": 1,
+ "autoname": "autoincrement",
  "creation": "2025-07-25 15:55:01.991669",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -77,10 +77,11 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-07-25 16:00:59.975807",
+ "modified": "2025-07-25 16:44:42.404900",
  "modified_by": "Administrator",
  "module": "Linkhub",
  "name": "Short Link Click",
+ "naming_rule": "Autoincrement",
  "owner": "Administrator",
  "permissions": [
   {

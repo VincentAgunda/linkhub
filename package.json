@@ -1,0 +1,23 @@
+{
+  "name": "linkhub",
+  "version": "1.0.0",
+  "description": "Manage and organize links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd frontend && yarn install",
+    "dev": "cd frontend && yarn dev",
+    "build": "cd frontend && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentAgunda/linkhub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VincentAgunda/linkhub/issues"
+  },
+  "homepage": "https://github.com/VincentAgunda/linkhub#readme"
+}
